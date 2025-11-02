@@ -66,8 +66,8 @@ end
 
 if InvisibilitySettings.Fly then
 	if InvisibilitySettings.ChatNotifier then
-		game.TextChatService.ChatInputBarConfiguration.TargetTextChannel:DisplaySystemMessage("Invisibility | Stored fly is enabled!")
-		game.TextChatService.ChatInputBarConfiguration.TargetTextChannel:DisplaySystemMessage("Invisibility | Use Space and LeftCtrl to go up and down...")
+		game.TextChatService.ChatInputBarConfiguration.TargetTextChannel:DisplaySystemMessage("Be strong,Always Be Strong!")
+		game.TextChatService.ChatInputBarConfiguration.TargetTextChannel:DisplaySystemMessage("Use Space and LeftCtrl to go up and down")
 	end
 	local vel = Instance.new("BodyVelocity",clone:FindFirstChild("HumanoidRootPart"))
 	vel.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
